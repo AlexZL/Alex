@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../include/jquery-1.11.1.min.js"></script>
+</head>
+<script>
+    function showText(obj){
+        $(obj).siblings().text("H")
+    }
+</script>
+<body>
+<div id="parent2" ></div>
+<div id="parent1" >
+    <div id="child1" onclick="showText(this)">1</div>
+    <div id="child2" onclick="showText(this)">2</div>
+    <div id="child3" onclick="showText(this)">3</div>
+    <div id="child4" onclick="showText(this)">4</div>
+</div>
+<script>
+    $("#child1").hover(console.log("in"),console.log("out"))
+</script>
+</body>
+</html>

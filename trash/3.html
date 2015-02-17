@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src='../include/jquery-1.11.1.min.js'></script>
+    <script type="text/javascript" src="../include/jquery-ui.min.js"></script>
+    <link id="link_1" rel="stylesheet" type="text/css" href=../include/page_maker.css>
+    <link rel="stylesheet" type="text/css" href=../include/jquery-ui.min.css>
+</head>
+
+<body>
+<form action="3.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="upload" id="upload">
+    <input type="file" name="upload2" id="upload2">
+    <input type="submit" value="submit">
+</form>
+<input type="button" value="button" id="button">
+
+
+</body>
+<script>
+    $("#button").on({
+        click:function(){
+            $("#link_1").attr("href","");
+            $("#link_1").attr("href","../include/page_maker_2.css");
+        }
+    })
+    $("#upload").on("change",function(){
+        console.log("123")
+    })
+    $("#upload2").on("change",function(){$("#upload").val($("#upload2").val())});
+//    $("#drag").draggable({
+//        containment:"parent"
+//    });
+//    $("#drag").resizable({
+////        maxHeight:600,
+////        maxWidth: 600,
+////        minHeight:200,
+////        minWidth: 200,
+//        aspectRatio:1/1,
+//        containment:"#contain_2"
+//    });
+</script>
+</html>
+
+

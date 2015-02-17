@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.page_navigator{
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #ffa8c7;
+    line-height: 20px;
+    border-bottom: thin #006eff;
+}
+.page_btn{
+    border: 0px;
+    background-color: transparent;
+    float: left;
+    margin-left: 10px;
+    color: #006eff;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    width: 40px;
+    font-size: 20px;
+}
+.page_btn_this{
+    border: 0px;
+    background-color: transparent;
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    width: 40px;
+    font-size: 20px;
+}
+.page_btn_blank{
+    float: left;
+    width: 40px;
+    font-size: 10px;
+    height: 30px;
+    color: #006eff;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.page_btn_blank_1{
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.page_btn_blank_2{
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+.page_num_input{
+    height: 20px;
+    width: 30px;
+    float: left;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.page_num_input_btn{
+    height: 30px;
+    width: 50px;
+    float: left;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    background-image: linear-gradient(#fff1dd, #ffde94);
+    margin-left: 10px;
+}
+.page_num_input_btn_2{
+    height: 30px;
+    width: 50px;
+    float: left;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    background-image: linear-gradient(#ffde94, #fff1dd);
+    margin-left: 10px;
+}
+.page_btn_word_1{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.page_btn_word_2{
+    float: left;
+    width: 20px;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.page_btn_word_3{
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+}
+.line{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+}
+.forum_div{
+    width: 1000px;
+    overflow: hidden;
+}
+
+.btn_1{
+    width: 100px;
+    height: 20px;
+    margin-left: 800px;
+    margin-top: 5px;
+    font-size: 10px;
+    cursor:pointer;
+    border-radius: 2px;
+    background-color: aquamarine;
+}
+.divide_line{
+    height: 20px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:1px solid #006eff;
+    border-top-style: dashed;
+    float: left;
+}
+.item{
+    width: 1000px;
+
+}
+.clear{
+    clear: both;
+}
+.icon{
+    width: 79px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffa8c7;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.title{
+    width: 669px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffbfcf;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.title a{
+    text-decoration: none;
+}
+.title a:link{
+    color: #000000;
+}
+.title a:visited{
+    color: #494949;
+}
+.title a:hover {
+    color: #0065ff;
+}
+.title a:active{
+    color: #0065ff;
+}
+.creator{
+    width: 119px;
+    height: 20px;
+    float: left;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffc3c6;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.date{
+     width: 119px;
+     height: 20px;
+     float: left;
+    font-size: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffc3c6;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.replier{
+    width: 119px;
+    height: 20px;
+    float: left;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffdbd6;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.reply_time{
+    width: 119px;
+    height: 20px;
+    float: left;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    background-color: #ffdbd6;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+
+}
+#nor_divide{
+    width: 1000px;
+    height: 40px;
+}
+#foot_back{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#foot_1{
+    position: fixed;
+    width: 1000px;
+    height: 50px;
+    background-color: coral;
+    bottom: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#foot_2{
+    display: none;
+    position: fixed;
+    width: 1000px;
+    height: 50px;
+    background-color: #a7c0ff;
+    bottom: 0px;
+    border-radius: 5px;
+}
+#foot_4{
+    display: none;
+    position: fixed;
+    width: 1000px;
+    height: 50px;
+    background-color: #ff182a;
+    bottom: 0px;
+    border-radius: 5px;
+}
+#foot_3{
+    display: none;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #ff32b4;
+    margin-left: 0px;
+    bottom: 0px;
+    border-radius: 5px;
+}
+#input_forum_title_search{
+    height: 30px;
+    width: 560px;
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#btn_forum_title_search{
+    height: 34px;
+    width: 100px;
+    left: 600px;
+    top: 10px;
+    position: absolute;
+    border-radius: 5px;
+}
+#btn_forum_create{
+    height: 34px;
+    width: 100px;
+    left: 720px;
+    top: 10px;
+    position: absolute;
+    border-radius: 5px;
+}
+#btn_foot_hidden{
+    height: 34px;
+    width: 100px;
+    left: 840px;
+    top: 10px;
+    position: absolute;
+    border-radius: 5px;
+}

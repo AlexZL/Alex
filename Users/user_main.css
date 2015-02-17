@@ -1,0 +1,532 @@
+*{
+    margin: 0px;
+}
+#window{
+    height: 100%;
+    width: 100%;
+    background-image:url("../media/images/system/background_image/pattern8-pattern-44a.png") ;
+    background-repeat: repeat;
+}
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+#select_item{
+    padding-top:20px;
+}
+/*#page_1{*/
+    /*height: 40px;*/
+    /*width: 200px;*/
+    /*margin-top: 10px;*/
+/*}*/
+#container_1{
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     height: 800px;
+    padding-left: 100px;
+}
+#container_2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    padding-left: 100px;
+}
+#container_3{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    padding-left: 100px;
+}
+#form_basement_info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#user_account_line{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    height: 40px;
+}
+#user_account_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#user_account{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#user_account_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#input_user_name_line{
+    width: 100%;
+    position: relative;
+    top:100px;
+    height: 40px;
+
+}
+#input_user_name_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#input_user_name{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#input_user_name_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#input_user_name_note{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+    height: 20px;
+    line-height: 40px;
+    color: #505050;
+}
+#input_user_name_warning{
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 105px;
+    padding-left: 220px;
+    color: red;
+}
+#input_user_sex_line{
+    width: 100%;
+    position: relative;
+    top: 150px;
+    height: 40px;
+}
+#input_user_sex_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#input_user_sex_female_label{
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+#input_user_sex_female{
+
+}
+#input_user_sex_male_label{
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+}
+#input_user_sex_male{
+
+}
+#input_user_sex_secret_label{
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+}
+#input_user_sex_secret{
+
+}
+#input_user_sex_show{
+    width: 50px;
+    margin-left: 50px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+#input_user_sex_warning{
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 155px;
+    padding-left: 220px;
+    color: red;
+}
+
+#password_change_checkbox_line{
+    width: 100%;
+    position: relative;
+    height: 20px;
+    top:250px;
+    left: 300px;
+}
+#user_password_line0{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top:300px;
+    display: none;
+}
+#user_password_label0{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#user_password0{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#user_password_line{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top:350px;
+    display: none;
+}
+#user_password_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#user_password{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#user_password_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#user_password_line2{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top:400px;
+    display: none;
+}
+#user_password_label2{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#user_password2{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#user_password2_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#submit{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top:450px;
+    left:200px;
+}
+#btn_user_info_submit{
+    height: 40px;
+    width: 320px;
+}
+
+#input_user_email_line{
+    width: 100%;
+    position: relative;
+    top:100px;
+    height: 40px;
+}
+#input_user_email_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#input_user_email{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#input_user_email_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#input_user_email_note{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+    height: 20px;
+    line-height: 40px;
+    color: #505050;
+    display: none;
+}
+#input_user_qq_line{
+    width: 100%;
+    position: relative;
+    top:200px;
+    height: 40px;
+}
+#input_user_qq_label{
+    margin-left: 50px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#input_user_qq{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#input_user_qq_info{
+    margin-left: 10px;
+    float:left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff004e;
+}
+#input_user_qq_note{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+    height: 20px;
+    line-height: 40px;
+    color: #505050;
+    display: none;
+}
+#submit2{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    top:300px;
+    left:200px;
+}
+#btn_user_info_submit2{
+    height: 40px;
+    width: 320px;
+}
+
+
+#input_user_portrait_line{
+    position: relative;
+}
+#label_user_portrait_original{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    float: left;
+}
+#line_1{
+    position: absolute;
+    width: 80%;
+    border-bottom: 1px solid #002dff;
+    top:40px;
+}
+#user_portrait_original{
+    position: absolute;
+    top:500px;
+    width: 1px;
+    height: 1px;
+    float: left;
+}
+#fake_button{
+    position: absolute;
+    top:550px;
+    width: 300px;
+    height: 40px;
+    float: left;
+    left: 250px;
+}
+/*#btn_user_portrait_upload{*/
+    /*position: absolute;*/
+    /*top: 400px;*/
+    /*width: 200px;*/
+    /*height: 40px;*/
+/*}*/
+#uploading{
+    position: absolute;
+    height: 40px;
+    top: 50px;
+    left: 300px;
+    display: none;
+}
+#upload_wait_img{
+    height: 30px;
+    width: 30px;
+}
+#upload_wait_note{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    font-size: 12px;
+    line-height: 30px;
+    top: 0px;
+    left: 40px;
+}
+#select_info_line{
+    position: absolute;
+    height: 40px;
+    top: 50px;
+    left: 300px;
+}
+#select_info{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    line-height: 30px;
+    top: 10px;
+    left: 40px;
+}
+#portrait_select_area{
+    position: absolute;
+    top: 100px;
+    width: 800px;
+    display: none;
+}
+#img_user_portrait_original{
+    /*display: none;*/
+    position: absolute;
+    width: 800px;
+}
+#select_window_area{
+    position: absolute;
+    width: 800px;
+}
+#select_window{
+    border: 1px dashed #000000;
+}
+#top_cover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+}
+
+#bottom_cover{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    background-color: #ffffff;
+}
+/*#center_line{*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+/*}*/
+#left_cover{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+}
+#right_cover{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #ffffff;
+}
+.cover{
+    opacity: 0.5;
+}
+#fake_button_2{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 100px;
+    display: none;
+}
+#confirm_user_portrait_line{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+#confirm_user_portrait{
+    height: 400px;
+    width: 400px;
+}
+
+#btn_confirm_portrait{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    display: none;
+    left: 450px;
+}

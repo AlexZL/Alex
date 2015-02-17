@@ -1,0 +1,10 @@
+class page_maker(a,b,c,d)参数说明：
+a：主页面代码，1表示用户设置页，2表示论坛；
+b：二级页面代码；
+c：三级页面代码；
+4：页面相对于ALEX文件夹层级。如Alex/forums/sub_forum_1/forum_blog_38.php，这个页面应使用page_maker(2,1,38,2)；
+
+makeNavigatorPage(X，1，2，3，4，5，6)参数说明：
+x代表navigator包含子选项块个数，1，2，3，4，5，6代表个子页面代码。
+1：用户设置页；
+2：论坛首页；
